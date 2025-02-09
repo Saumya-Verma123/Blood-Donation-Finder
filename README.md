@@ -37,8 +37,11 @@ The Blood Donation Finder is a life-saving initiative designed to connect blood 
 
 # Why This Project?
 Millions of people struggle to find blood donors in emergencies. Our platform aims to:
+
 ✅ Reduce Response Time by instantly connecting donors and recipients
+
 ✅ Increase Donor Availability through location-based searches
+
 ✅ Enhance Communication with real-time notifications and messaging
 
 # 👩‍💻  Made By
