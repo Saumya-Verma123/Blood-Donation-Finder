@@ -24,11 +24,16 @@ The Blood Donation Finder is a life-saving initiative designed to connect blood 
   - **JavaScript**: For implementing dynamic functionalities and handling user interactions, enhancing the overall user experience.
 - **Backend**: 
   - **Firebase**: Used for database management, user authentication, and real-time data synchronization, ensuring a seamless experience for users.
+- **GIT & GITHUB**:
+  - **Git** is a free, open-source version control system that tracks code changes, while **GitHub** is a web-based service that hosts Git repositories
 
-## How to Use This Platform
-1. **Sign Up**: Users can create an account by providing their details and registering as a donor.
-2. **Request Blood**: Users in need of blood can fill out the blood request form, specifying all necessary details.
-3. **Find Donors**: Users can search for available donors by selecting their required blood group and viewing the list of potential donors.
+## How to Use this plateform
+1. **Visit the Website** – Go to the LandingPage.html then go live for getting landing page(Homepage).
+2. **Sign Up**: Users can create an account by providing their details and registering as a donor.
+3. **Request Blood**: Users in need of blood can fill out the blood request form, specifying all necessary details.
+4. **Find Donors**: Users can search for available donors by selecting their required blood group and viewing the list of potential donors.
+5. **Live Updates & Notifications** – Donors receive real-time notifications for urgent requests.
+6. **Go Live & Save Lives!** – Start using the platform to connect with donors and recipien
 
 # Why This Project?
 Millions of people struggle to find blood donors in emergencies. Our platform aims to:
