@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+   
+    <title>Find Donors</title>
+    <!-- Linking external CSS files for common styles and specific page styles -->
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="finddonors.css">
+    <!-- Linking external JavaScript file for donor search functionality -->
+    <script type="module" src="find_donors.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Find Donors</h1>
+        <!-- Navigation buttons for easy access to different sections of the platform -->
+        <nav>
+            <button class="buttons" onclick="location.href='LandingPage.html'">Home</button>
+            <button class="buttons" onclick="location.href='register_donor.html'">Sign Up to Donate</button>
+            <button class="buttons" onclick="location.href='request_blood.html'">Request Blood</button>
+            <button class="buttons" onclick="location.href='donor_profile.html'">Donors Profile</button>
+            <button class="buttons" onclick="location.href='about_us.html'">About Us</button>
+            
+        </nav>
+    </header>
+    <section>
+        <h2>Search for Donors</h2>
+        <!-- Form to filter donors based on blood group selection -->
+        <form>
+            <label for="bloodGroup">Blood Group:</label>
+            <select id="bloodGroup">
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+            </select>
+            <button class="buttons" type="submit">Search</button>
+        </form>
+        <h3>Available Donors</h3>
+        <!-- Status message displayed when searching for donors -->
+        <p id="statusMessage"></p> 
+        <ul id="donorList">
+            <!-- List of donors will be populated here -->
+        </ul>
+    </section>
+    <footer>
+        <p>Contact us for more information.(9876543201)</p>
+    </footer>
+</body>
+</html>
